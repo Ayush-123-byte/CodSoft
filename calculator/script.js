@@ -8,7 +8,7 @@ function appendToDisplay(value) {
     if (displayValue === '0') {
         displayValue = value;
     } else {
-        displayValue += value;
+        displayValue += value; 
     }
     updateDisplay();
 }
